@@ -1,0 +1,26 @@
+{
+  "name": "week1hw",
+  "version": "1.0.0",
+  "description": "Week 1 : Introduction\tIntroduction to MongoDB and the Node.js driver; Installing MongoDB; Installing Node.js and using NPM; Introduction to the Mongo Shell, JSON, BSON, and the MongoDB query language; Introduction to building web applications using Express ",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akhileshsh026/MongoDB-With-Node/tree/Week-1"
+  },
+  "keywords": [
+    "Node.js",
+    "Weekend",
+    "Class"
+  ],
+  "author": "Akhilesh Kumar MongoDB Univercity",
+  "license": "MIT"
+}
