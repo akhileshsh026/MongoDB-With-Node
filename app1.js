@@ -10,7 +10,7 @@ var experss = require('express'),
    app.set('view engine','html');
    app.set('views',__dirname + '/views');
 
-MongoClient.connect(url,(err,db) => {
+MongoClient.connect(url,function(err,db) {
     
     assert.equal(null,err);
     console.log('Sucessfully connected to server');
