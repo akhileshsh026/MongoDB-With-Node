@@ -8,7 +8,7 @@ var experss = require('express'),
    app.set('views',__dirname,'/views');
 
    app.get('/' , function(req,res) {
-       res.send('Hello World');
+       res.render('hello',{'name':'templetes'});   // hello is templete stored in /views folder
    });
 
    app.use(function(req,res) {
