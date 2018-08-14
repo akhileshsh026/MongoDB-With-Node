@@ -5,7 +5,7 @@ var experss = require('express'),
 
    app.engine('html', engines.nunjucks);
    app.set('view engine','html');
-   app.set('views',__dirname,'/views');
+   app.set('views',__dirname + '/views');
 
    app.get('/' , function(req,res) {
        res.render('hello',{'name':'templetes'});   // hello is templete stored in /views folder
