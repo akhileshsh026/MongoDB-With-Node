@@ -2,7 +2,7 @@
   "name": "week1hw",
   "version": "1.0.0",
   "description": "Week 1 : Introduction\tIntroduction to MongoDB and the Node.js driver; Installing MongoDB; Installing Node.js and using NPM; Introduction to the Mongo Shell, JSON, BSON, and the MongoDB query language; Introduction to building web applications using Express ",
-  "main": "app.js",
+  "main": "app1.js",
   "dependencies": {
     "consolidate": "^0.15.1",
     "express": "^4.16.3",

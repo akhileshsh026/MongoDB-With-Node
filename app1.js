@@ -1,9 +1,16 @@
-var http= require('http');
-var server = http.createServer(function(Request , Response) {
-                  Response.writeHead(200, {"Content-Type":"text/plain"});
-                  Response.end("Hello, World!!!!!!");
-});
+var experss = require('express'),
+   app = experss();
 
-server.listen(9000);
 
-console.log("Server Sucessfully Started at port 9000");
+   app.get('/' , function(req,res) {
+       res.send('Hello World');
+   });
+
+   app.use(function(req,res) {
+       res.sendStatus(404);
+   });
+
+   var server = app.listen('9000',function() {
+       var port = server.address().port;
+       console.log('Server is listing at port no : ',port);
+   })
